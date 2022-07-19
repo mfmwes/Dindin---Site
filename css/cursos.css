@@ -39,7 +39,7 @@ nav ul {
 
 li {
     
-    font-size: 34px;
+    font-size: 28px;
     padding-right: 42px;
     font-weight: 700;
 }
@@ -50,35 +50,50 @@ li {
 }
 
 h1{
-font-size: 60px;
+font-size: 50px;
 color: #FF4081;
 font-weight: 700;
 }
 
 h3{
-    font-size: 27px;
-    margin-bottom: 10%;
+    font-size: 25px;
+    margin-bottom: 5%;
+    color: #555555;
+    
+}
+
+.barra{
+    background-color: #C4C4C4;
+    height: 5px;
+    width: 1600px;
 }
 
 .investimento {
     display: grid;
-    grid-template-columns: 0.35fr 1fr;
-    margin-bottom: 10%;
-   
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 5%;
 }
 
 .investimento img {
     width: 380px;
     height: 380px;
+    
+}
+
+.curso-1 {
+    margin: 0;
+    align-self: center;
+    width: 800px;
+    
 }
 
 .curso-1 h2{
     color: #FF4081;
-    font-size: 45px;
+    font-size: 40px;
 }
 
 .curso-1 p {
-    font-size: 27px;
+    font-size: 20px;
 }
 
 .curso-1 a {
@@ -94,9 +109,10 @@ h3{
 }
 
 .poupando-rendendo{
+    margin-top: 5%;
     display: grid;
-    grid-template-columns: 0.35fr 1fr;
-    margin-bottom: 10%;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 5%;
 }
 
 .poupando-rendendo img {
@@ -104,13 +120,20 @@ h3{
     height: 380px;
 }
 
+.curso-2{
+    margin: 0;
+    align-self: center;
+    width: 800px;
+}
+
 .curso-2 h2{
     color: #FF4081;
-    font-size: 45px;
+    font-size: 40px;
 }
 
 .curso-2 p {
-    font-size: 27px;
+    font-size: 20px;
+   
 }
 
 .curso-2 a {
@@ -126,9 +149,10 @@ h3{
 }
 
 .indep{
+    margin-top: 5%;
     display: grid;
-    grid-template-columns: 0.35fr 1fr;
-    margin-bottom: 5%;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 10%;
 }
 
 .indep img {
@@ -136,13 +160,19 @@ h3{
     height: 380px;
 }
 
+.curso-3{
+    margin: 0;
+    align-self: center;
+    width: 800px;
+}
+
 .curso-3 h2{
     color: #FF4081;
-    font-size: 45px;
+    font-size: 40px;
 }
 
 .curso-3 p {
-    font-size: 27px;
+    font-size: 20px;
 }
 
 .curso-3 a {
@@ -231,6 +261,12 @@ footer a {
         
     }
     
+    .barra{
+        background-color: #C4C4C4;
+        height: 5px;
+        width: 700px;
+    }
+
     .investimento{
         width: 850px;
         height: 500px;
@@ -242,7 +278,7 @@ footer a {
     }
 
     .curso-1{
-        width: 450px;
+        width: 350px;
     }
 
     .poupando-rendendo{
@@ -256,7 +292,7 @@ footer a {
     }
 
     .curso-2{
-        width: 450px;
+        width: 350px;
     }
 
     .indep{
@@ -271,7 +307,7 @@ footer a {
     }
 
     .curso-3{
-        width: 450px;
+        width: 350px;
        
     }
 
@@ -326,6 +362,12 @@ footer a {
 
     .inicio h3{
         font-size: 22px;
+    }
+
+    .barra{
+        background-color: #C4C4C4;
+        height: 5px;
+        width: 280px;
     }
 
     .investimento img {

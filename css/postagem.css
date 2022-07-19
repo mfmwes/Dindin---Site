@@ -41,7 +41,7 @@ nav ul {
 
 li {
    
-    font-size: 34px;
+    font-size: 28px;
     padding-right: 42px;
     font-weight: 700;
 }
@@ -54,12 +54,12 @@ li {
 
 .titulo {
     color:#FF4081;
-    font-size: 60px
+    font-size: 40px
     
 }
 
 .data{
-    font-size: 30px;
+    font-size: 20px;
     color:  #9D9D9D;
     
 }
@@ -67,8 +67,8 @@ li {
 .bloco-de-imagem{
     
     background-color: #9D9D9D;
-    width: 1200px;
-    height: 600px;
+    width: 900px;
+    height: 500px;
     margin-bottom: 3%;
 }
 
@@ -132,7 +132,7 @@ li {
 .titulo-cursos{
     padding-top: 3%;
     color: #FF4081;
-    font-size: 50px;
+    font-size: 35px;
     text-align: center;
 }
 

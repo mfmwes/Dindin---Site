@@ -43,7 +43,7 @@ nav ul {
 }
 
 li {
-    font-size: 34px;
+    font-size: 28px;
     padding-right: 42px;
     font-weight: 700;
 }
@@ -102,6 +102,7 @@ li {
     display: flex;
     margin-top: 59px;
     background-color: #F6F6F6;
+    padding-bottom: 2%;
 }
 
 .box {

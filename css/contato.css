@@ -41,7 +41,7 @@ nav ul {
 
 li {
    
-    font-size: 34px;
+    font-size: 28px;
     padding-right: 42px;
     font-weight: 700;
 }
@@ -52,6 +52,8 @@ li {
     margin-top: 1%;
     
    
+    
+   
 }
 
 .div-img{
@@ -59,8 +61,8 @@ li {
 }
 
 #img-contato{
-  width: 600px;
-  height: 600px;
+  width: 570px;
+  height: 650px;
  
   
 }
@@ -70,10 +72,10 @@ li {
     display: flex;
     flex-direction: column;
     border: 1px solid #58555D;
-    height: 680px;
+    height: 650px;
     width: 1000px;
     border-radius: 20px;
-    margin-left: 15%;
+    
 }
 
 h1 {
@@ -116,8 +118,8 @@ input {
     background-color: #FF4081;
     width:200px;
     height: 45px;
-    margin-left: 15.2%;
-    margin-top: 2%;
+    margin-left: 6%;
+    margin-top: 1%;
     margin-bottom: 2%;
     cursor: pointer;
 }
@@ -230,7 +232,7 @@ footer a {
     }
 
     #enviar{
-        margin-left: 38%;
+        margin-left: 33%;
         font-size: 40px;
         width: 250px;
         height: 50px;

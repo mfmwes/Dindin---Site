@@ -44,7 +44,7 @@ nav ul {
 
 li {
     
-    font-size: 34px;
+    font-size: 28px;
     padding-right: 42px;
     font-weight: 700;
 }
@@ -60,21 +60,21 @@ li {
 
 .inicial h1 {
     margin-top: 25%;
-    font-size: 70px;
+    font-size: 60px;
     color: #2E948A;
 }
 
 .inicial h5 {
     margin-top: 5%;
-    font-size: 27px;
+    font-size: 25px;
     width: 550px;
 }
 
 #banner {
     margin-top: 10%;
     margin-left: 7%;
-    width: 750px;
-    height: 610px;
+    width: 680px;
+    height: 500px;
     
 }
 
@@ -96,20 +96,20 @@ li {
 
 .post {
     background-color: #C4C4C4;
-    width: 650px;
-    height: 350px;
+    width: 450px;
+    height: 250px;
 }
 
 
 .titulo-post {
     margin-top: 3%;
-    font-size:40px;
+    font-size:27px;
     color: #FF4081;
     font-weight: 700;
 }
 
 .texto-post {
-    font-size: 24px;
+    font-size: 20px;
     margin-top: 5%;
     color: black;
 }
