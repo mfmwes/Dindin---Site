@@ -1,0 +1,308 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    font-family: 'Ubuntu';
+    max-width: 100%;
+    flex-flow: wrap;
+    text-decoration: none;
+    box-sizing: border-box;
+ 
+}
+
+header a {
+    color: #F6F6F6;
+}
+
+a {
+   color: #FF4081; 
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2E948A;
+    height: 117px;
+    box-shadow: 5px 5px 10px #C4C4C4;
+}
+
+#logo-header { 
+    margin-top: 5%;
+    width: 250px;
+    height: 75px;
+         
+}
+
+nav ul {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: white; 
+    margin-top: 1.6%;  
+}
+
+li {
+    font-size: 34px;
+    padding-right: 42px;
+    font-weight: 700;
+}
+
+.inicial{
+    display: flex;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.inicial h1 {
+    color: #FF4081;
+    font-size: 60px;
+}
+
+.inicial p {
+    font-size: 27px;
+    
+}
+
+#banner{
+    width: 550px;
+    height: 550px;
+    margin-right: 20%;
+}
+
+
+.aulas{
+    margin-top: 5%;
+    padding-top: 5%;
+    background-color: #F6F6F6;
+    display: flex ;
+    
+}
+
+.aulas h2{
+    color: #FF4081;
+    font-size: 30px;
+}
+
+.aulas p {
+    width: 700px;
+    font-size: 24px;
+    padding-top: 5%;
+}
+
+.aulas iframe{
+    
+    margin-left: 20%;
+    margin-bottom: 5%;
+}
+
+.texto-aula{
+    margin-right: 25%;
+    
+}
+
+footer {
+    background-color: #2E948A;
+    display: flex;
+    height: 200px;   
+}
+
+footer img {
+    margin-top: 2%;
+}
+
+.links-footer {
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    font-size: 27px;
+    font-weight: 700;
+    
+}
+
+footer a {
+    color: #F6F6F6;
+    margin-bottom: 5%; 
+}
+
+
+.links-footer2 {
+    display: flex;
+    flex-direction: column; 
+    text-align: center;
+    margin-top: 2.2%;    
+}
+
+.links-footer2 a {
+    border: 2px solid #F6F6F6;
+    border-radius: 62px;
+    padding: 7px 65px;
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+    top: 2%;
+    right: 25%;
+    margin-bottom: 5%;
+    transition: 600ms;
+}
+
+.links-footer2 a:hover {
+    background-color: #F6F6F6;
+    color: #2E948A;
+}
+
+
+
+@media (max-width:850px){
+
+    
+
+    nav ul {
+        margin-top: 4.5%;
+        
+    }
+    
+    ul li{
+        font-size: 28px;
+    }
+    
+    .pessoa{
+        width: 58px;
+    }
+    
+    footer {
+        display: flex;
+        flex-flow: column;
+        height: 500px;
+        box-shadow: 0px 0px 4px #C4C4C4;
+        margin: 0 auto;
+        
+    }
+
+    .links-footer{
+        font-size: 28px;
+        margin-left: 47%;
+    }
+    
+    .links-footer2{
+        margin-left: 41%;
+        
+    }
+    
+    .links-footer2 a {
+        font-size: 27px;
+        
+    }
+    .inicial h1{
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    .aulas{
+        padding-bottom: 8%;
+    }
+
+    .texto-aula {
+      padding-left: 5%;  
+    }
+
+    iframe{
+        margin-top: 5%;
+        margin-right: 15%;
+    }
+
+}
+
+
+@media(max-width:500px){
+   
+    
+    #logo-header{
+        width: 150px;
+        height: 65px;
+    }    
+        
+        nav ul {
+            position: absolute;
+            top: 9%;
+            left: 16%;
+        }
+            
+        ul li {
+            color: #F6F6F6;
+            margin: 0px;
+            padding: 0px;
+           font-size: 20px;
+           padding-left: 15px;
+           padding-right: 15px;
+           
+        }    
+
+        footer {
+            height: 600px;
+            box-shadow: 0px 0px 4px #C4C4C4
+        }
+        
+        
+        .links-footer{
+            font-size: 28px;
+            margin-left: 38%;
+        }
+        
+        .links-footer2{
+            margin-left: 35%;
+            
+        }
+        
+        .links-footer2 a {
+            font-size: 14px;
+        }
+        
+        .inicial{
+            margin-left: 0%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .inicial h1{
+            margin-right: 8%;
+            margin-top: 5%;
+            font-size: 40px;
+            margin-bottom: 5%;
+        }
+
+        .inicial p {
+            margin-right: 8%;
+            font-size: 20px;
+        }
+        
+        .box-inicial{
+            margin-right: 25%;
+            width: 300px;
+        }
+
+        #banner{
+            height: 350px;
+           
+        }
+
+        iframe{
+            padding-top: 5%;
+            position: relative;
+            right: 10%;
+            width: 330px;
+            height: 200px;
+        }
+        
+        .texto-aula h2{
+            font-size: 36px;
+        }
+
+        .texto-aula p {
+            font-size: 18px;
+        }
+
+        .aulas{
+            padding-bottom: 15%;
+        }
+    }

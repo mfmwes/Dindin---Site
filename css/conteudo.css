@@ -1,0 +1,314 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    font-family: 'Ubuntu';
+    max-width: 100%;
+    flex-flow: wrap;
+    text-decoration: none;
+    box-sizing: border-box;
+ 
+}
+
+header a {
+    color: #F6F6F6;
+}
+
+a {
+   color: #FF4081; 
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2E948A;
+    height: 117px;
+    box-shadow: 5px 5px 10px #C4C4C4;
+}
+
+#logo-header { 
+    margin-top: 5%;
+    width: 250px;
+    height: 75px;
+         
+}
+
+nav ul {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: white;  
+    margin-top: 1.6%; 
+}
+
+li {
+    
+    font-size: 34px;
+    padding-right: 42px;
+    font-weight: 700;
+}
+
+/* PARTE DO CONTEÚDO PRINCIPAL*/
+
+
+.inicial {
+    display:grid;
+    grid-template-columns: 0.5fr 0.55fr;
+    
+}
+
+.inicial h1 {
+    margin-top: 25%;
+    font-size: 70px;
+    color: #2E948A;
+}
+
+.inicial h5 {
+    margin-top: 5%;
+    font-size: 27px;
+    width: 550px;
+}
+
+#banner {
+    margin-top: 10%;
+    margin-left: 7%;
+    width: 750px;
+    height: 610px;
+    
+}
+
+.sessao-postagens {
+    margin-top: 10%;
+    background-color: #F6F6F6;
+    display: grid;
+    grid-template-columns: 1fr 1fr;   
+    
+}
+
+.postagem {
+    margin-top: 15%;
+    width: 800px;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+
+.post {
+    background-color: #C4C4C4;
+    width: 650px;
+    height: 350px;
+}
+
+
+.titulo-post {
+    margin-top: 3%;
+    font-size:40px;
+    color: #FF4081;
+    font-weight: 700;
+}
+
+.texto-post {
+    font-size: 24px;
+    margin-top: 5%;
+    color: black;
+}
+
+footer {
+    background-color: #2E948A;
+    display: flex;
+    height: 200px;   
+}
+
+footer img {
+    margin-top: 2%;
+}
+
+.links-footer {
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    font-size: 27px;
+    font-weight: 700;
+    
+}
+
+footer a {
+    color: #F6F6F6;
+    margin-bottom: 5%; 
+}
+
+
+.links-footer2 {
+    display: flex;
+    flex-direction: column; 
+    text-align: center;
+    margin-top: 2.2%;    
+}
+
+.links-footer2 a {
+    border: 2px solid #F6F6F6;
+    border-radius: 62px;
+    padding: 7px 65px;
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+    top: 2%;
+    right: 25%;
+    margin-bottom: 5%;
+    transition: 600ms;
+}
+
+.links-footer2 a:hover {
+    background-color: #F6F6F6;
+    color: #2E948A;
+}
+
+
+@media (max-width:850px){
+
+    
+
+    nav ul {
+        margin-top: 4.5%;
+        
+    }
+    
+    ul li{
+        font-size: 28px;
+    }
+    
+    .pessoa{
+        width: 58px;
+    }
+    
+    footer {
+        display: flex;
+        flex-flow: column;
+        height: 500px;
+        box-shadow: 0px 0px 4px #C4C4C4;
+        margin: 0 auto;
+        
+    }
+    
+    .texto-inicial{
+        margin-left: 3%;
+    }
+    
+    .links-footer{
+        font-size: 28px;
+        margin-left: 47%;
+    }
+    
+    .links-footer2{
+        margin-left: 41%;
+        
+    }
+    
+    .links-footer2 a {
+        font-size: 27px;
+        
+    }
+
+    .inicial{
+        display: flex;
+    }
+
+    .sessao-postagens{
+        display: flex;
+    }
+   
+}
+
+@media(max-width:500px){
+   
+    
+#logo-header{
+    width: 150px;
+    height: 65px;
+}    
+    
+    nav ul {
+        position: absolute;
+        top: 9%;
+        left: 16%;
+    }
+        
+    ul li {
+        color: #F6F6F6;
+        margin: 0px;
+        padding: 0px;
+       font-size: 20px;
+       padding-left: 15px;
+       padding-right: 15px;
+       
+    }    
+    
+
+    .inicial {
+        display: flex;
+        flex-flow: column;
+    }
+
+    
+
+   .inicial h1{
+        font-size: 40px;
+    }
+
+    .inicial h5 {
+        font-size: 18px;
+    }
+
+    #banner{
+        height: 250px;
+        width: 250px;
+    }
+
+
+    .sessao-postagens{
+        display: flex;
+        flex-flow: column;
+    }
+
+    .post{
+        width: 250px;
+        height: 150px;
+    }
+
+    .titulo-post{
+        font-size: 24px;
+    }
+
+    .texto-post{
+        font-size: 20px;
+        color: black;
+    }
+
+    footer {
+        height: 600px;
+        box-shadow: 0px 0px 4px #C4C4C4
+    }
+    
+    
+    .links-footer{
+        font-size: 28px;
+        margin-left: 38%;
+    }
+    
+    .links-footer2{
+        margin-left: 35%;
+        
+    }
+    
+    .links-footer2 a {
+        font-size: 14px;
+    }
+    
+    
+    }
+    
+    
+
+
+     

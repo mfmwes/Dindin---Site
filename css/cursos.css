@@ -1,0 +1,460 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    font-family: 'Ubuntu';
+    max-width: 100%;
+    flex-flow: wrap;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+header a {
+    color: #fdfdfd;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2E948A;
+    height: 117px;
+    box-shadow: 5px 5px 10px #C4C4C4;
+}
+
+#logo-header { 
+    margin-top: 5%;
+    width: 250px;
+    height: 75px;
+         
+}
+
+nav ul {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: white;  
+    margin-top: 1.6%; 
+}
+
+li {
+    
+    font-size: 34px;
+    padding-right: 42px;
+    font-weight: 700;
+}
+
+.inicio{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+h1{
+font-size: 60px;
+color: #FF4081;
+font-weight: 700;
+}
+
+h3{
+    font-size: 27px;
+    margin-bottom: 10%;
+}
+
+.investimento {
+    display: grid;
+    grid-template-columns: 0.35fr 1fr;
+    margin-bottom: 10%;
+   
+}
+
+.investimento img {
+    width: 380px;
+    height: 380px;
+}
+
+.curso-1 h2{
+    color: #FF4081;
+    font-size: 45px;
+}
+
+.curso-1 p {
+    font-size: 27px;
+}
+
+.curso-1 a {
+    display: inline-block;
+    color: #F6F6F6;
+    background-color: #2E948A;
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 3%;
+    padding: 10px 55px;
+    border:1px solid #2E948A;
+    border-radius: 67px;
+}
+
+.poupando-rendendo{
+    display: grid;
+    grid-template-columns: 0.35fr 1fr;
+    margin-bottom: 10%;
+}
+
+.poupando-rendendo img {
+    width: 380px;
+    height: 380px;
+}
+
+.curso-2 h2{
+    color: #FF4081;
+    font-size: 45px;
+}
+
+.curso-2 p {
+    font-size: 27px;
+}
+
+.curso-2 a {
+    display: inline-block;
+    color: #F6F6F6;
+    background-color: #2E948A;
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 3%;
+    padding: 10px 55px;
+    border:1px solid #2E948A;
+    border-radius: 67px;
+}
+
+.indep{
+    display: grid;
+    grid-template-columns: 0.35fr 1fr;
+    margin-bottom: 5%;
+}
+
+.indep img {
+    width: 380px;
+    height: 380px;
+}
+
+.curso-3 h2{
+    color: #FF4081;
+    font-size: 45px;
+}
+
+.curso-3 p {
+    font-size: 27px;
+}
+
+.curso-3 a {
+    display: inline-block;
+    color: #F6F6F6;
+    background-color: #2E948A;
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 3%;
+    padding: 10px 55px;
+    border:1px solid #2E948A;
+    border-radius: 67px;
+}
+
+footer {
+    background-color: #2E948A;
+    display: flex;
+    height: 200px;   
+}
+
+footer img {
+    margin-top: 2%;
+}
+
+.links-footer {
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    font-size: 27px;
+    font-weight: 700;
+    
+}
+
+footer a {
+    color: #F6F6F6;
+    margin-bottom: 5%; 
+}
+
+
+.links-footer2 {
+    display: flex;
+    flex-direction: column; 
+    text-align: center;
+    margin-top: 2.2%;    
+}
+
+.links-footer2 a {
+    border: 2px solid #F6F6F6;
+    border-radius: 62px;
+    padding: 7px 65px;
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+    top: 2%;
+    right: 25%;
+    margin-bottom: 5%;
+    transition: 600ms;
+}
+
+.links-footer2 a:hover {
+    background-color: #F6F6F6;
+    color: #2E948A;
+}
+
+@media (max-width:850px){
+
+    nav ul {
+        margin-top: 4.5%;
+        
+    }
+    
+    ul li{
+        font-size: 28px;
+    }
+    
+    .pessoa{
+        width: 58px;
+    }
+    
+    footer {
+        display: flex;
+        flex-flow: column;
+        height: 600px;
+        box-shadow: 0px 0px 4px #C4C4C4;
+        margin: 0 auto;
+        
+    }
+    
+    .investimento{
+        width: 850px;
+        height: 500px;
+    }
+    .investimento img{
+        width: 250px;
+        height: 300px;
+        margin-top: 25%;
+    }
+
+    .curso-1{
+        width: 450px;
+    }
+
+    .poupando-rendendo{
+        width: 850px;
+        height: 500px;
+    }
+    .poupando-rendendo img{
+        width: 250px;
+        height: 300px;
+        margin-top: 25%;
+    }
+
+    .curso-2{
+        width: 450px;
+    }
+
+    .indep{
+        width: 850px;
+        height: 500px;
+        margin-bottom: 25%;
+    }
+    .indep img{
+        width: 250px;
+        height: 300px;
+        margin-top: 25%;
+    }
+
+    .curso-3{
+        width: 450px;
+       
+    }
+
+    
+    .links-footer{
+        font-size: 28px;
+        margin-left: 47%;
+    }
+    
+    .links-footer2{
+        margin-left: 41%;
+        
+    }
+    
+    .links-footer2 a {
+        font-size: 27px;
+        
+    }
+
+    main a:hover{
+        background-color: #F6F6F6;
+        color: #2E948A;
+        font-weight: 700;
+    }
+    
+    
+    }
+
+
+
+@media(max-width:500px){
+
+    
+    #logo-header{
+    width: 150px;
+    height: 65px;
+    }    
+
+    main a:hover{
+        background-color: #F6F6F6;
+        color: #2E948A;
+        font-weight: 700;
+    }
+
+    .inicio{
+        margin-left: 8%;
+    }
+
+    .inicio h1{
+        font-size: 40px;
+    }
+
+    .inicio h3{
+        font-size: 22px;
+    }
+
+    .investimento img {
+        width: 250px;
+        height: 250px;
+        margin-top: 10%;
+    }
+
+    .investimento{
+        display: flex;
+        flex-flow: column;
+        width: 250px;
+        margin-bottom: 75%;
+    }
+
+    .investimento h2 {
+        font-size: 32px;
+        margin-top: 8%;
+    }
+
+    .investimento p {
+        font-size: 18px;
+    }
+
+    .investimento a {
+        font-size: 18px;
+       
+    }
+    
+
+    .investimento img {
+        width: 250px;
+        height: 250px;
+        margin-top: 10%;
+    }
+
+    .poupando-rendendo{
+        display: flex;
+        flex-flow: column;
+        width: 250px;
+        margin-bottom: 75%;
+        
+    }
+
+    .poupando-rendendo h2 {
+        font-size: 32px;
+        margin-top: 8%;
+    }
+
+    .poupando-rendendo p {
+        font-size: 18px;
+    }
+
+    .poupando-rendendo a {
+        font-size: 18px;
+        
+    }
+
+    .poupando-rendendo img {
+        width: 250px;
+        height: 220px;
+        margin-top: 10%;
+    }
+
+    .indep{
+        display: flex;
+        flex-flow: column;
+        width: 250px;
+        margin-bottom: 75%;
+        
+    }
+
+    .indep h2 {
+        font-size: 32px;
+        margin-top: 8%;
+    }
+
+    .indep p {
+        font-size: 18px;
+    }
+
+    .indep a {
+        font-size: 18px;
+    }
+
+    .indep img {
+        width: 250px;
+        height: 220px;
+        margin-top: 10%;
+    }
+
+  
+    nav ul {
+        position: absolute;
+        top: 9%;
+        left: 16%;
+    }
+        
+    ul li {
+        color: #F6F6F6;
+        margin: 0px;
+        padding: 0px;
+       font-size: 20px;
+       padding-left: 15px;
+       padding-right: 15px;
+       
+    }    
+    
+    
+    footer {
+    height: 600px;
+    box-shadow: 0px 0px 4px #C4C4C4
+    }
+
+
+    .links-footer{
+    font-size: 28px;
+    margin-left: 38%;
+    }
+
+    .links-footer2{
+    margin-left: 35%;
+    
+    }
+
+    .links-footer2 a {
+    font-size: 14px;
+    }
+}
+
+
+     
